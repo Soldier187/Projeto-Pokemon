@@ -50,6 +50,8 @@ ul{
  height: 70px;
  cursor: pointer;
  border-radius: 50px;
+ transition: background-color 0,2s ease-in-out;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .btn-seta.btn-voltar{
@@ -58,4 +60,15 @@ ul{
 
 .btn-seta:hover{
 background-color: #838383;
+}
+
+.cartão{
+    opacity: 0;
+    background-color:blueviolet;
+    height: 100%;
+}
+
+.cartão-selecionado{
+    opacity:1;
+    z-index:1;
 }
