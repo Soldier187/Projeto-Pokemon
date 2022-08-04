@@ -93,9 +93,24 @@ background-color: #838383;
     background-repeat: no-repeat;
 }
 
-.cartão.Descrição{
+.cartão .descrição{
     background-color:rgba(179, 177, 185, 0.7);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
+    padding:8px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cartão .descrição .nome{
+   color: #f1ecff;
+   font-size: 22px;
+}
+
+.cartão .descrição .vida{
+    background-color: #3434;
+    color: #f1ecff;
+    padding: 6px 10px;
+    border-radius: 20px;
 }
