@@ -9,10 +9,53 @@ body{
  background-image:url(../imagens/fundo-site.png);
  background-repeat: no-repeat;
  background-size: cover;
+ min-height: 100vh;
+}
+
+ul{
+    list-style: none;
 }
 
 .cabecalho {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
+    padding: 50px;
+}
+.cabecalho .titulo{
+    color: #f1ecff;
+}
+.cabecalho .pokebola{
+ width: 30px;
+ height: 30px;
+}
+
+.pokemon-slider{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+     margin: 60px 0px;}
+.lista-pokemons{
+    background-color: blue;
+    width: 310px;
+    height: 520px;
+}
+
+.btn-seta{
+ background-color: white;
+ width: 70px;
+ height: 70px;
+ cursor: pointer;
+ border-radius: 50px;
+}
+
+.btn-seta.btn-voltar{
+ transform: rotateY(180deg);
+}
+
+.btn-seta:hover{
+background-color: #838383;
 }
