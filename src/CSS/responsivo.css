@@ -1,6 +1,7 @@
 @media (max-width: 620px){
-.cabecalho { padding: 0 15px;
-    gap: 10px;
+.pokemon-slider{
+     padding: 0 15px;
+     gap: 10px;
     }
 .btn-seta{
     width: 20px;
@@ -10,7 +11,7 @@
     align-items: center;
     justify-content: center;
 }
-.listas-pokemons{
+.lista-pokemons{
     height: 480px;
 }
 
