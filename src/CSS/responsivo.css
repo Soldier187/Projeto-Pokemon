@@ -1,0 +1,29 @@
+@media (max-width: 620px){
+.cabecalho { padding: 0 15px;
+    gap: 10px;
+    }
+.btn-seta{
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listas-pokemons{
+    height: 480px;
+}
+
+.cartão .imagem-pokemon{
+    max-height: 240px;
+}
+
+.cartão .descrição .nome{
+    max-height: 50%;
+    font-size: 18px;
+}
+
+.cartão .descrição .vida{
+    font-size: 14px;
+}
+}
