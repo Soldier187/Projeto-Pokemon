@@ -15,16 +15,16 @@
     height: 480px;
 }
 
-.cartão .imagem-pokemon{
+.cartao .imagem-pokemon{
     max-height: 240px;
 }
 
-.cartão .descrição .nome{
+.cartao .descrição .nome{
     max-height: 50%;
     font-size: 18px;
 }
 
-.cartão .descrição .vida{
+.cartao .descrição .vida{
     font-size: 14px;
 }
 }
