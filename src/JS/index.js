@@ -10,13 +10,11 @@ let cartaoAtual = 0;
      cartoes[cartaoAtual].classList.add('selecionado');
      if(cartaoAtual === cartoes.length - 1) return;
 
-     console.log('blah')
-
      cartaoAtual++;
      console.log(cartaoAtual);
      cartoes[cartaoAtual].classList.add('selecionado')
 
      //Passo 4 - Buscar o cartão que está selecionado e tirar a classe dele 
-      const cartaSelecionado = document.querySelector('selecionado');
-      cataoSelecionado.classList.remove('selecionado');
+      const cartaoSelecionado = document.querySelector('.selecionado');
+      cartaoSelecionado.classList.remove('selecionado');
     });
