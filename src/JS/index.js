@@ -8,15 +8,17 @@ function esconderCartaoSelecionado(){
     const cartaoSelecionado = document.querySelector('.selecionado');
     cartaoSelecionado.classList.remove('selecionado');
 }
+function mostrarCartao(indiceCartao){
+    cartoes[indiceCartao].classList.add('selecionado')
+}
 
-function mostrarCartao();
+
 //Passo 2 - Dar um jeito de identeficar o clique do usuário na seta avaçar
     btnAvancar.addEventListener('click', function(){
         if(cartaoAtual === cartoes.length - 1) return;
 
      cartaoAtual++;
-     console.log(cartaoAtual);
-     cartoes[cartaoAtual].classList.add('selecionado')
+     mostrarCartao(cartaoAtual);
 
      //Passo 4 - Buscar o cartão que está selecionado e tirar a classe dele 
      esconderCartaoSelecionado();
@@ -29,7 +31,5 @@ btnVoltar.addEventListener('click', function (){
    esconderCartaoSelecionado();
 
     cartaoAtual--;
-    console.log(cartaoAtual);
-    cartoes[cartaoAtual].classList.add('selecionado');
-
+    mostrarCartao(cartaoAtual);
     });
